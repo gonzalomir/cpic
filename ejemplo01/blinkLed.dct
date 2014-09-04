@@ -113,6 +113,7 @@ eeif_bit
 eeprom_read
 eeprom_write
 equals_double
+estado
 exp
 f
 fabs
@@ -166,6 +167,7 @@ lcd_out
 lcd_out_cp
 ldexp
 ldiv
+led
 log
 log10
 longint2double
@@ -177,6 +179,7 @@ longwordtohex
 longwordtostr
 longwordtostrwithzeros
 ltrim
+main
 malloc
 man_break
 man_receive
@@ -453,6 +456,7 @@ trisb6
 trisb6_bit
 trisb7
 trisb7_bit
+trisled
 uldiv
 vdelay_advanced_ms
 vdelay_ms

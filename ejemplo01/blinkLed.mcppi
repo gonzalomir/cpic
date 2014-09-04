@@ -1,6 +1,20 @@
 [DEVICE]
 Name=P16F84A
 Clock=4000000
+[MEMORY_MODEL]
+Value=-1
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=blinkLed.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[EEPROM_DEFINITION]
+Value=
 [FILES]
 Count=1
 File0=blinkLed.c
@@ -8,7 +22,7 @@ File0=blinkLed.c
 Count=0
 [IMAGES]
 Count=0
-ActiveImageIndex=0
+ActiveImageIndex=-1
 [OPENED_FILES]
 Count=1
 File0=blinkLed.c
@@ -19,9 +33,10 @@ Count=0
 [OTHER_FILES]
 Count=0
 [SEARCH_PATH]
-Count=2
+Count=3
 Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\
 Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\
+Path2=G:\icei\cpic\ejemplo01\
 [HEADER_PATH]
 Count=0
 [HEADERS]
@@ -53,20 +68,6 @@ File19=Sprinti
 File20=Sprintl
 File21=Time
 File22=Trigonometry
-[MEMORY_MODEL]
-Value=-1
-[BUILD_TYPE]
-Value=0
-[ACTIVE_TAB]
-Value=blinkLed.c
-[USE_EEPROM]
-Value=0
-[USE_HEAP]
-Value=0
-[HEAP_SIZE]
-Value=0
-[EEPROM_DEFINITION]
-Value=
 [EXPANDED NODES]
 Node1=Sources
 Count=1
